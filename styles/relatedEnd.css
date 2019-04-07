@@ -1,0 +1,6 @@
+/** Youtube CSS overrides **/
+
+/** RELATED VIDEOS (END OF VIDEO SCREEN) **/
+.ytp-videowall-still, .ytp-endscreen-previous, .ytp-endscreen-next {
+  display: none !important;
+}

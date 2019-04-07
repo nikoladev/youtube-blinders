@@ -1,0 +1,12 @@
+/** Youtube CSS overrides **/
+
+/** RELATED VIDEOS (SIDEBAR) **/
+
+/** Displayed while loading, grey boxes **/
+#related-skeleton, .watch-skeleton {
+  display: none !important;
+}
+
+ytd-watch-next-secondary-results-renderer {
+  visibility: hidden !important;
+}

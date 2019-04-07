@@ -1,0 +1,7 @@
+/** Youtube CSS overrides **/
+
+/** COMMENTS **/
+
+ytd-comments {
+  visibility: hidden !important;
+}
