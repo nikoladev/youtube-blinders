@@ -49,10 +49,11 @@ async function registerScript (message) {
   })
 }
 
-async function onInstall () {
-  // ensure that the options are activated on install
+async function init () {
+  // ensure that the options are activated on install and when browser starts
   await registerScript('__reloadYtCSS')
 }
 
-browser.runtime.onMessage.addListener(registerScript);
-browser.runtime.onInstalled.addListener(onInstall);
+browser.runtime.onMessage.addListener(registerScript)
+browser.runtime.onInstalled.addListener(init)
+browser.runtime.onStartup.addListener(init)
