@@ -1,5 +1,7 @@
 # Youtube Blinders
 
+Download it here: https://addons.mozilla.org/firefox/addon/youtube-blinders/
+
 ## What it does
 
 This extension allows you to hide the following from Youtube:
