@@ -15,3 +15,7 @@
 ytd-browse[role="main"][page-subtype="home"] #contents {
   visibility: hidden !important;
 }
+
+ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
+  -webkit-line-clamp: none;
+}

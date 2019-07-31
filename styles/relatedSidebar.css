@@ -10,3 +10,7 @@
 ytd-watch-next-secondary-results-renderer {
   visibility: hidden !important;
 }
+
+ytd-compact-video-renderer #video-title.ytd-compact-video-renderer {
+  -webkit-line-clamp: none;
+}
