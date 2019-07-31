@@ -16,8 +16,8 @@ This extension allows you to hide the following from Youtube:
 All 4 of the options mentioned in the intro can be turned on or off. Here's how:
 
 - Go to `about:addons` in your URL bar
-- Find Youtube Blinders in your extensions and click on `Preferences`
-- At the bottom of that page you'll find the options as a list of checkboxes
+- Find Youtube Blinders in your extensions and click on it
+- In the `Preferences` tab you'll find the options as a list of checkboxes
 
 The settings should look something like this:
 
