@@ -11,6 +11,7 @@ ytd-watch-next-secondary-results-renderer {
   visibility: hidden !important;
 }
 
+/** Without this, the ellipses in videos with too long titles would stay on screen **/
 ytd-compact-video-renderer #video-title.ytd-compact-video-renderer {
   -webkit-line-clamp: none;
 }
