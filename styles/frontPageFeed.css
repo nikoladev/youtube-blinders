@@ -20,3 +20,8 @@ ytd-browse[role="main"][page-subtype="home"] #contents {
 ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
   -webkit-line-clamp: none;
 }
+
+/** Hide ellipses in body text of "Latest YouTube posts" */
+yt-formatted-string #home-content-text.style-scope.ytd-post-renderer {
+  -webkit-line-clamp: none;
+}
