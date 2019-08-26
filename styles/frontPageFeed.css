@@ -22,6 +22,8 @@ ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer 
 }
 
 /** Hide ellipses in body text of "Latest YouTube posts" */
-yt-formatted-string #home-content-text.style-scope.ytd-post-renderer {
+ytd-post-renderer[uses-compact-lockup_][attachment="image"] #home-content-text.ytd-post-renderer,
+ytd-post-renderer[uses-compact-lockup_][attachment="none"] #home-content-text.ytd-post-renderer,
+ytd-post-renderer[uses-compact-lockup_] #home-content-text.ytd-post-renderer {
   -webkit-line-clamp: none;
 }
