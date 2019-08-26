@@ -1,6 +1,6 @@
 {
   "name": "youtube-blinders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hide the parts of Youtube that make it hard to leave",
   "main": "background.js",
   "scripts": {
