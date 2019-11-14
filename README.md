@@ -22,3 +22,7 @@ All 4 of the options mentioned in the intro can be turned on or off. Here's how:
 The settings should look something like this:
 
 ![Screenshot of the options](screenshots/options.png)
+
+## Attribution
+
+Based on Pamela Fox's [Youtube UnHooked](https://github.com/pamelafox/youtube-feed-hider/) for Chrome
