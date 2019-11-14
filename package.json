@@ -1,7 +1,7 @@
 {
   "name": "youtube-blinders",
-  "version": "1.0.3",
-  "description": "Hide the parts of Youtube that make it hard to leave",
+  "version": "1.0.4",
+  "description": "Hide the parts of Youtube that are distracting and make it hard to leave",
   "main": "background.js",
   "scripts": {
     "build": "web-ext build --config=.web-ext.config.js",
