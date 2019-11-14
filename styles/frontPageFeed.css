@@ -17,7 +17,8 @@ ytd-browse[role="main"][page-subtype="home"] #contents {
 }
 
 /** Without this, the ellipses in videos with too long titles would stay on screen **/
-ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
+ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
+ytd-rich-grid-video-renderer #video-title.ytd-rich-grid-video-renderer {
   -webkit-line-clamp: none;
 }
 
