@@ -3,6 +3,7 @@ var options = [
   'relatedSidebar',
   'relatedEnd',
   'comments',
+  'liveChat',
 ]
 
 var registered = null

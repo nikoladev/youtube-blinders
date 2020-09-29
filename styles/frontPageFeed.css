@@ -28,3 +28,8 @@ ytd-post-renderer[uses-compact-lockup_][attachment="none"] #home-content-text.yt
 ytd-post-renderer[uses-compact-lockup_] #home-content-text.ytd-post-renderer {
   -webkit-line-clamp: none;
 }
+
+/** Hide recommendation chips/tags at the top of the front feed **/
+ytd-feed-filter-chip-bar-renderer {
+  display: none !important;
+}

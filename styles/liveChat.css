@@ -1,0 +1,8 @@
+/** Youtube CSS overrides **/
+
+/** LIVE CHAT **/
+
+/** Hide live chat **/
+ytd-live-chat-frame {
+  display: none !important;
+}
