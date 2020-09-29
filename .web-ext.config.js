@@ -2,7 +2,7 @@ module.exports ={
   ignoreFiles: [
     '_possible-icons/',
     'package.json',
-    'package-lock.json',
+    'pnpm-lock.yaml',
     'screenshots/',
     'README.md'
   ]
