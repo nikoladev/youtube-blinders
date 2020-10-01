@@ -3,6 +3,7 @@ var options = [
   'relatedSidebar',
   'relatedEnd',
   'comments',
+  'liveChat',
 ]
 
 function saveOptions(option) {
