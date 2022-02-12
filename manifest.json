@@ -1,7 +1,7 @@
 {
   "name": "Youtube Blinders",
   "description": "Hide the parts of Youtube that are distracting and make it hard to leave",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "homepage_url": "https://github.com/nikoladev/youtube-blinders",
   "manifest_version": 2,
   "icons": {
