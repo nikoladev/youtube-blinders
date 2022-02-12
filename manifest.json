@@ -18,6 +18,8 @@
   ],
   "background": {
     "scripts": [
+      "browser-polyfill.js",
+      "content-scripts-register-polyfill.3.2.1.js",
       "background.js"
     ]
   },

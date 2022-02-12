@@ -4,7 +4,8 @@
   "description": "Hide the parts of Youtube that are distracting and make it hard to leave",
   "main": "background.js",
   "scripts": {
-    "build": "web-ext build --config=.web-ext.config.js",
+    "copy-polyfill": "node scripts/copy-polyfill.js",
+    "build": "npm run copy-polyfill && web-ext build --config=.web-ext.config.js",
     "lint": "web-ext lint"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/nikoladev/youtube-blinders#readme",
   "devDependencies": {
-    "web-ext": "6.7.0"
+    "web-ext": "6.7.0",
+    "webextension-polyfill": "0.8.0"
   }
 }
